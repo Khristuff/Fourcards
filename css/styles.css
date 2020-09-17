@@ -1,0 +1,76 @@
+.header {
+    border: 0;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+
+  }
+
+img{
+    text-align: right;
+}
+.Team {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 280px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    
+    
+  position: relative;
+  left: 575px;
+  top: 100px;
+  }
+  
+.Supervisor {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0px;
+    width: 280px;
+    position: relative;
+    left: 270px;
+  
+  }
+  
+.Karma {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    position: relative;
+    left: 575px;
+    bottom: 100px;
+    
+    
+  }
+  
+.Calculator {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0px;
+    width: 280px;
+    position: relative;
+    left: 900px;
+    bottom: 465px;
+    
+  }
+
+  .wrapper{
+    width: 1440px;
+    box-shadow: 5px;
+    background-color: rgb(253, 253, 253);
+  }
+
+  
+
+  
+  
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  
+
+
