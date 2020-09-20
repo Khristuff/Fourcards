@@ -1,68 +1,131 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
 .header {
     border: 0;
-    padding: 10px;
-    margin: 0px;
+    padding: 50px 0 0 0;
+    margin: 0;
     text-align: center;
-
-  }
-
-img{
-    text-align: right;
+  
 }
+
+.cards{
+  margin-top: -60px;
+  margin-bottom: -150px;
+
+
+
+}
+
 .Team {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    width: 280px;
-    border: 1px solid;
+    box-shadow: rgba(185, 176, 176, 0.1) 0px 4px 12px;
+    width: 320px;
+    border-top: 5px solid;
+    border-color:  Red hsl(0, 78%, 62%);
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    
-    
-  position: relative;
-  left: 575px;
-  top: 100px;
+    position: relative;
+    left: 545px;
+    top: 100px;
   }
   
 .Supervisor {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border: 1px solid;
+    border-top: 5px solid;
+    border-color:  Cyan hsl(180, 62%, 55%);
+    border-radius: 5px;
     padding: 10px;
     margin: 0px;
-    width: 280px;
+    width: 320px;
     position: relative;
-    left: 270px;
+    left: 200px;
+    
   
   }
   
 .Karma {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border: 1px solid;
+    border-top: 5px solid;
+    border-color:  Orange hsl(34, 97%, 64%);
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 280px;
+    width: 320px;
     position: relative;
-    left: 575px;
+    left: 545px;
     bottom: 100px;
-    
+       
     
   }
   
 .Calculator {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border: 1px solid;
+    border-top: 5px solid;
+    border-color:Blue hsl(212, 72%, 65%);
+    border-radius: 5px;
     padding: 10px;
     margin: 0px;
-    width: 280px;
+    width: 320px;
     position: relative;
-    left: 900px;
-    bottom: 465px;
+    left: 910px;
+    bottom: 500px;
     
   }
 
   .wrapper{
     width: 1440px;
-    box-shadow: 5px;
-    background-color: rgb(253, 253, 253);
+    
+    
   }
+
+  .Team-img{
+    width: fit-content;
+    margin-left: 230px;
+  }
+
+  .kar-img{
+    width: fit-content;
+    margin-left: 230px;
+  }
+
+  .cal-img{
+    width: fit-content;
+    margin-left: 230px;
+}
+
+.Super-img{
+  width: fit-content;
+    margin-left: 230px;
+}
+
+.rel{
+  font-weight: 200;
+  margin-bottom: -35px;
+  font-size: 2.1rem;
+}
+
+.pow{
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-bottom: -1px;
+  margin-top: px;
+}
+h1{
+  font-weight: 400;
+  margin-bottom: -10px;
+}
+
+h2{
+  font-size: 1.85rem;
+}
+p{
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+  
 
   
 
